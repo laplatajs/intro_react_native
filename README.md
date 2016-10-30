@@ -2,7 +2,7 @@
 ===================
 Charla introductoria a React Native para LaPlataJS, meetup Octubre 2016.
 
-En este repo pueden encontrar la presentacion propiamente dicha  (en el archivo **presentacion.odt**) asi como tambien el codigo que se hizo luego de la presentacion .
+En este repo pueden encontrar la presentacion propiamente dicha  (en el archivo **presentacion.odp**) asi como tambien el codigo que se hizo luego de la presentacion .
 
 
 Instrucciones para ejecutar el codigo
