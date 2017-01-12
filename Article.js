@@ -25,11 +25,11 @@ class Article extends Component {
 
                 </View>
 
-                <TouchableHighlight style={styles.button} onPress={() => Linking.openURL(this.props.article.url)}>
+                <TouchableHighlight underlayColor={'transparent'} style={styles.button} onPress={() => Linking.openURL(this.props.article.url)}>
                     <Text>Read full article</Text>
                 </TouchableHighlight>
 
-                <TouchableHighlight style={styles.button} onPress={this.props.navigator.pop}>
+                <TouchableHighlight underlayColor={'transparent'} style={styles.button} onPress={this.props.navigator.pop}>
                     <Text>Back to List</Text>
                 </TouchableHighlight>
             </View>

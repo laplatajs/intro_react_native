@@ -29,7 +29,7 @@ class Feed extends Component {
     renderRow(article){
 
         return(
-            <TouchableHighlight onPress={() => {this.props.navigator.push({name: 'article', article: article})}}>
+            <TouchableHighlight underlayColor={'transparent'} onPress={() => {this.props.navigator.push({name: 'article', article: article})}}>
                 <View style={styles.article}>
                     <Image style={styles.articleImage} source={{uri: article.urlToImage}}/>
                     <Text style={styles.articleTitle}>{article.title}</Text>
